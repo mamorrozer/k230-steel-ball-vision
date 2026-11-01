@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270">
+  <rect width="1200" height="270" rx="18" fill="#0b1220"/>
+  <g font-family="Segoe UI,Microsoft YaHei,sans-serif" fill="#f8fafc">
+    <text x="48" y="44" font-size="24" font-weight="700">K230 Steel-Ball Vision Pipeline</text>
+    <text x="48" y="70" font-size="14" fill="#94a3b8">Measured deployment path with an explicit control handoff boundary</text>
+    <g font-size="16" font-weight="600" text-anchor="middle">
+      <rect x="48" y="116" width="180" height="82" rx="12" fill="#173b5e"/><text x="138" y="151">Camera</text><text x="138" y="176" fill="#bae6fd" font-size="13">K230 sensor</text>
+      <rect x="280" y="116" width="180" height="82" rx="12" fill="#155e75"/><text x="370" y="151">Fixed-shape YOLO</text><text x="370" y="176" fill="#cffafe" font-size="13">352×192 / 512×288</text>
+      <rect x="512" y="116" width="180" height="82" rx="12" fill="#166534"/><text x="602" y="151">Target selection</text><text x="602" y="176" fill="#dcfce7" font-size="13">confidence + box</text>
+      <rect x="744" y="116" width="180" height="82" rx="12" fill="#854d0e"/><text x="834" y="151">Axis projection</text><text x="834" y="176" fill="#fef3c7" font-size="13">mm + velocity</text>
+      <rect x="976" y="116" width="176" height="82" rx="12" fill="#7c2d12"/><text x="1064" y="151">Diagnostic UART</text><text x="1064" y="176" fill="#ffedd5" font-size="13">motor loop later</text>
+    </g>
+    <g stroke="#67e8f9" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M230 157h38l-10-8m10 8-10 8"/><path d="M462 157h38l-10-8m10 8-10 8"/><path d="M694 157h38l-10-8m10 8-10 8"/><path d="M926 157h38l-10-8m10 8-10 8"/>
+    </g>
+  </g>
+</svg>
